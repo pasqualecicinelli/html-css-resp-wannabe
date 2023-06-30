@@ -134,3 +134,30 @@ img {
        }             
     
 }
+                /*MOBILE*/
+
+@media screen and (max-width:480px){
+
+    .container{
+        max-width: 480px;
+        
+   
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-us .col-left, .why-us .col-right, .lessons .col,.steps .col{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+   
+    .why-us .container{
+        background-color: black;
+        padding-top: 2rem;
+    }
+    .why-us,.steps{
+        margin-bottom: 0;
+    }
+
+}
