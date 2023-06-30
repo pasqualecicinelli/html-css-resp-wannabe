@@ -168,4 +168,7 @@ img {
     .container{
         width: 90%;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
