@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -127,49 +128,61 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px){
-  
-       .container{
+@media screen and (max-width: 768px) {
+
+    .container {
         width: 100%;
-       }             
-    
-}
-                /*MOBILE*/
-
-@media screen and (max-width:480px){
-
-    .container{
-        width:100%;
-        
-   
     }
-    .row{
+
+}
+
+/*MOBILE*/
+
+@media screen and (max-width:480px) {
+
+    .container {
+        width: 100%;
+
+
+    }
+
+    .row {
         flex-direction: column;
         align-items: center;
     }
-    .why-us .col-left, .why-us .col-right, .lessons .col,.steps .col{
+
+    .why-us .col-left,
+    .why-us .col-right,
+    .lessons .col,
+    .steps .col {
         width: 100%;
         margin-bottom: 4rem;
     }
-   
-    .why-us .container{
+
+    .why-us .container {
         background-color: black;
         padding-top: 2rem;
 
     }
-    .why-us,.steps{
+
+    .why-us,
+    .steps {
         margin-bottom: 0;
     }
 
+    .why-us h2 {
+        padding: 0 2rem;
+    }
 }
 
-        /* Bonus */
-@media screen and (min-width:768px) and (max-width: 1160px){
-    
-    .container{
+/* Bonus */
+@media screen and (min-width:768px) and (max-width: 1160px) {
+
+    .container {
         width: 90%;
     }
-    body{
+
+    body {
         overflow-x: hidden;
     }
 }
